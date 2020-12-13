@@ -132,4 +132,8 @@ RECAPTCHA_PRIVATE_KEY = '6LeGmgQaAAAAAD2Ftl1a3_zywoUrgx746kxLV8L_'
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [BASE_DIR, 'static']
 
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
 AUTHENTICATION_BACKENDS = ['users.backends.EmailOrUsernameBackend']
